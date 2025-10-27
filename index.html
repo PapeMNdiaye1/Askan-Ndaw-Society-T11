@@ -4,18 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="icon" href="./Style/Images/PNG/favicon.png" />
-    <meta name="description" content=" Lotissement de Pointe Sarène />
+    <meta name="description" content=" Lotissement de Pointe Sarène" />
     <meta name="Keywords" content="" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
       rel="stylesheet"
     />
-
     <title>Askan Ndaw Society T11</title>
-
     <script
       rel="preload"
       src="https://aframe.io/releases/1.5.0/aframe.min.js"
@@ -60,6 +57,7 @@
     <a onclick="history.back()" class="the-logo">
       <img src="./Style/Images/PNG/Logo_Akan-Ndaw.png" width="100%" alt="" />
     </a>
+
     <a-scene
       id="the_scene"
       the_scene
@@ -85,6 +83,7 @@
         laser-controls="hand: left"
         raycaster="objects: [data-clickable] ; far: 500; lineColor: #23343b; lineOpacity: 0.5"
       ></a-entity>
+
       <a-entity
         laser-controls="hand: right"
         raycaster="objects: [data-clickable] ; far: 500; lineColor: #23343b; lineOpacity: 0.5"
@@ -136,13 +135,7 @@
         </a-plane>
 
         <!-------------->
-
-        <a-entity
-          position="0 0 0"
-          scale="1 1 1 "
-          rotation="0 0 0"
-          visible="true"
-        >
+        <a-entity position="" scale="" rotation="" visible="">
           <a-box
             scale="0.20778 1.2573 0.23177"
             position="0.64082 0.14154 3.58364"
@@ -154,7 +147,7 @@
 
           <a-box
             scale="0.15059 0.91123 0.16798"
-            position="-11.73658 0.94958 3.89342"
+            position="-11.73658 0.64114 3.89342"
             rotation="0 45 0"
             color="#fce6b1"
             material=""
@@ -179,7 +172,6 @@
             geometry=""
           ></a-box>
         </a-entity>
-
         <!-------------->
 
         <a-entity position="" scale="" rotation="" visible="">
@@ -238,7 +230,7 @@
           scale="0.9 0.9 0.9"
           opacity=".5"
           class="pintings clickable"
-          position="9.39044 -0.23311 -2.12784"
+          position="7.19715 -0.23311 -2.12784"
           rotation="-52.97395886441053 -88.90586107044984 -178.85393237024263"
           material="src: #Arrow-1; transparent:true"
           the_dote="Name_of_dote: Dote-0  ; Group_to_activate: Group-0 ; The_rotation: 0"
@@ -1270,7 +1262,7 @@
         the_group_to_activate.setAttribute("scale", "1 1 1");
         the_sky.setAttribute("rotation", `0 ${theRotation} 0`);
       };
-      setStrat(8, 0);
+      setStrat(0, 0);
 
       AFRAME.registerComponent("the_dote", {
         schema: {
